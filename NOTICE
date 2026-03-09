@@ -1,0 +1,12 @@
+skill-swiftui-dev
+Copyright 2025 Relux Works
+
+This skill is a derivative work that merges and builds upon:
+
+- swiftui-expert-skill by Antoine van der Lee (AvdLee)
+  https://github.com/AvdLee/SwiftUI-Agent-Skill
+  Licensed under MIT
+
+- swiftui-pro by Paul Hudson (twostraws)
+  https://github.com/twostraws/SwiftUI-Agent-Skill
+  Licensed under MIT
