@@ -65,6 +65,6 @@ See [SOURCES.md](SOURCES.md) for detailed provenance per reference file and upda
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 This is a derivative work. See [NOTICE](NOTICE) for upstream attribution.
