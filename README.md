@@ -7,11 +7,11 @@ SwiftUI development skill for AI coding agents. Covers state management, view co
 When triggered, the skill guides the agent through writing, reviewing, or improving SwiftUI code using best practices distilled from two well-known open-source skills (see [Sources](#sources)).
 
 Key capabilities:
-- **Review pipeline** — 10-step review process with before/after code fixes
-- **Partial review** — load only relevant reference files to save context tokens
-- **Modern API enforcement** — catch deprecated patterns LLMs commonly produce
-- **Accessibility first** — Dynamic Type, VoiceOver, Reduce Motion compliance
-- **Performance patterns** — view composition, hot path optimization, lazy loading
+- **Review pipeline**: 10-step review process with before/after code fixes
+- **Partial review**: load only relevant reference files to save context tokens
+- **Modern API enforcement**: catch deprecated patterns LLMs commonly produce
+- **Accessibility first**: Dynamic Type, VoiceOver, Reduce Motion compliance
+- **Performance patterns**: view composition, hot path optimization, lazy loading
 
 ## Installation
 
@@ -63,6 +63,16 @@ See [SOURCES.md](SOURCES.md) for detailed provenance per reference file and upda
 |------|---------|---------|
 | `setup.sh` | Install skill globally | `./setup.sh` |
 
+## The Relux stack
+
+This package is part of the Relux stack: the
+[Relux](https://github.com/relux-works/swift-relux) unidirectional data-flow
+architecture for Swift 6, a family of modules around it, and agent-ready testing
+tools. The stack is how we build MVPs fast on agentic rails and then scale them into
+enterprise-grade apps: Tuist workspaces, strict modularization, and a UDF architecture
+proven in production for years. Browse the full picture in the
+[Relux Works open-source catalog](https://relux.works/en/open-source/).
+
 <!-- relux-ecosystem:start -->
 
 ## About Relux Works
@@ -82,6 +92,6 @@ work is open source.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
 
 This is a derivative work. See [NOTICE](NOTICE) for upstream attribution.
